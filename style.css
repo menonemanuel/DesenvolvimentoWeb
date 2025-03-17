@@ -52,9 +52,76 @@ footer {
 
 main {
     width: 1000px;
-    background-color: gray;
+    margin: auto;
     .tabela{
         display: grid;
         grid-template-columns: 50% 50%;
+        
+            align-items: center;
+            .coluna
+            img {
+                width: 100%;
+            }
+        }
     }
+.btn {
+    background-color: orange;
+    color: #0e1729
+    text-decoration none;
+    padding: 10px;
+    border-radius: 5px;
 }
+p, h1 {
+    margin: 30px;
+
+}
+h1 {
+    font-size: 42px;
+    }
+    #sobre {
+        h2 {
+            text-transform: uppercase;
+            text-align: center;
+            margin: 30px;
+
+        }
+        img {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 50px 10px 10px white;
+            margin: 30px;
+        }
+    p {
+    }
+    #planos {
+        h2 {
+            text-transform: uppercase;
+            margin: 30px;
+            text-align: center;
+        }
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(3, 33%);
+            .col {
+                box-shadow: 0 0 20px white;
+                margin: 10px;
+                border-radius: 10px;
+                padding: 20px;
+                text-align: center;
+                h3 {
+                    text-transform: uppercase;
+                    color: orange;
+                    font-size: 16px;
+                }
+                hr {
+                    margin: 20px 0;
+                    border: 1px dashed #CCD
+                }
+                .valor {
+                    color: red;
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+    }
