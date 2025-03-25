@@ -57,27 +57,39 @@ main {
         .texto {
             font-size: 15px;
             font-family: Arial, Helvetica, sans-serif;
+<<<<<<< HEAD
             text-align: center;
         }
         .juntos {
+=======
+        }
+        .parceiros {
+>>>>>>> 3b196c1 (Dia2203)
             display: flex;
             justify-content: center;
             align-items: center;
             gap: 20px; /* Ajusta o espaço entre as imagens */
             margin-top: -50px; /* Aproxima as imagens do título */
+<<<<<<< HEAD
             
+=======
+>>>>>>> 3b196c1 (Dia2203)
         }
         .image {
             width: 100%;
             border-radius: 10px;
             box-shadow: 0 0 20px white;
             margin-top: -50px;
+<<<<<<< HEAD
             
+=======
+>>>>>>> 3b196c1 (Dia2203)
         }
         p {
             margin: 10px 0;
         }
     }
+<<<<<<< HEAD
 
     #mentores {
         margin-top: -50px;
@@ -135,3 +147,13 @@ main {
         text-align: center;
         color: white;
     }
+=======
+}
+
+footer {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: white;
+}
+>>>>>>> 3b196c1 (Dia2203)
